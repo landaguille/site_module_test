@@ -1,0 +1,7 @@
+site_module_test.page:
+  path: /test
+  defaults:
+    _controller: \Drupal\site_module_test\Controller\HelloWorldPage::hiMethod
+    _title: 'Hello World'
+  requirements:
+    _permission: 'access hello world page'
