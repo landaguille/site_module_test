@@ -9,7 +9,7 @@ class HelloWorldPage extends ControllerBase {
 
     return [
       'my_element' => [
-        '#markup' => 'Hello World!',
+        '#markup' => $this->t('Hello World!'),
         '#prefix' => '<p>',
         '#suffix' => '</p>',
       ]
