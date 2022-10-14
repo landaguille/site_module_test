@@ -9,7 +9,9 @@ class HelloWorldPage extends ControllerBase {
 
     return [
       'my_element' => [
-        '#markup' => '<p>Hello World!!</p>',
+        '#markup' => 'Hello World!',
+        '#prefix' => '<p>',
+        '#suffix' => '</p>',
       ]
     ];
   }
